@@ -1,4 +1,5 @@
-﻿using Our.Umbraco.Ditto;
+﻿using DemoApp.ComponentModel.Processors;
+using Our.Umbraco.Ditto;
 
 namespace DemoApp.ViewModels
 {
@@ -7,6 +8,7 @@ namespace DemoApp.ViewModels
         [UmbracoProperty("content_title", Order = 0)]
         [AltUmbracoProperty("seo_metaTitle", Order = 1)]
         [AltUmbracoProperty("Name", Order = 2)]
+        [StringLengthProcessor(Order = 3)]
         public string Title { get; set; }
     }
 }

@@ -384,6 +384,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComponentModel\Processors\StringLengthProcessor.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\HomePageViewModel.cs" />
