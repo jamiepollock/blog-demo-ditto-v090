@@ -384,6 +384,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComponentModel\Processors\AddNumberProcessor.cs" />
+    <Compile Include="ComponentModel\Processors\AddNumberProcessorContext.cs" />
     <Compile Include="ComponentModel\Processors\StringLengthProcessor.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

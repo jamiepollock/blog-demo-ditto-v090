@@ -9,6 +9,7 @@ namespace DemoApp.ViewModels
         [AltUmbracoProperty("seo_metaTitle", Order = 1)]
         [AltUmbracoProperty("Name", Order = 2)]
         [StringLengthProcessor(Order = 3)]
+        [AddNumberProcessor(Order = 4)]
         public string Title { get; set; }
     }
 }

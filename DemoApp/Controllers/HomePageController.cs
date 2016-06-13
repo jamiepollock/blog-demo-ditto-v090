@@ -1,4 +1,6 @@
-﻿using System.Web.Mvc;
+﻿using System.Web.Http;
+using System.Web.Mvc;
+using DemoApp.ComponentModel.Processors;
 using DemoApp.ViewModels;
 using Our.Umbraco.Ditto;
 using Umbraco.Web.Models;
@@ -8,11 +10,16 @@ namespace DemoApp.Controllers
 {
     public class HomePageController : RenderMvcController
     {
-        public ActionResult HomePage(RenderModel model)
+        public ActionResult HomePage(RenderModel model, [FromUri] int offset = 0)
         {
-            var viewModel = model.As<HomePageViewModel>();
+            var contexts = new[]{
+                new AddNumberProcessorContext() {
+                    Number = offset
+                }
+            };
 
-            return View(viewModel);
+
+            return View(model.As<HomePageViewModel>(processorContexts: contexts));
         }
 
     }
