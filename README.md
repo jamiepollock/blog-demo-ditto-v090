@@ -1,5 +1,5 @@
 # Blog Demo: Ditto v0.9.0 Processors
-Complementing code to a blog on [Umbraco Ditto v0.9.0](https://github.com/leekelleher/umbraco-ditto/releases/tag/0.9.0) Processors
+Complementing code to [getting started blog article](https://jamiepollock.github.io/blog/2016/06/15/getting-started-with-ditto-processors) on [Umbraco Ditto v0.9.0](https://github.com/leekelleher/umbraco-ditto/releases/tag/0.9.0) Processors
 
 ## Usage
 This demo code was built against .net 4.5.2 on Visual Studio 2015 with a preinstalled [Umbraco v7.4.3](https://our.umbraco.org/contribute/releases/743/) instance with a local .sdf database which a document type & demplate setup already for ease of use.
