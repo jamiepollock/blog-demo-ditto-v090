@@ -2,13 +2,13 @@
 Complementing code to a blog on [Umbraco Ditto v0.9.0](https://github.com/leekelleher/umbraco-ditto/releases/tag/0.9.0) Processors
 
 ## Usage
-This code is built against .net 4.5.1 with a preinstalled [Umbraco v7.4.3](https://our.umbraco.org/contribute/releases/743/) instance with a local .sdf database with a document type setup already for ease of use.
+This demo code was built against .net 4.5.2 on Visual Studio 2015 with a preinstalled [Umbraco v7.4.3](https://our.umbraco.org/contribute/releases/743/) instance with a local .sdf database with a document type setup already for ease of use.
 
 Fork/Download the code locally and build the solution to restore the missing nuget packages.
 
 ### Backoffice access
 
-Username: admin@admin.com
+Username: admin@admin.com  
 Password: password
 
 ## Steps covered:
